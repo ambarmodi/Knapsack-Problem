@@ -15,6 +15,7 @@ Instructions to execute:
 2. To execute the Brute Force Approach -> ./Q1-1_brute_force_knapsack.out {input_file}
 3. To execute the Greedy Approach -> ./Q1-2_greedy_algorithm.out {input_file}
 4. To execute the Dynamic Approach -> ./Q1-3_dynamic_programming_knapsack.out {input_file}
+5. make clean . (Cleans the executable)
 
 Note the input-file.txt should include the number of elements in the first line, weights in the second line, profits in the third line, and knapsack capacity in the fourth line. 
 
