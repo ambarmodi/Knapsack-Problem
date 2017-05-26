@@ -1,6 +1,6 @@
 all: project3
 
-project3: Q1-1_brute_force_knapsack.out Q1-2_greedy_algorithm.out Q1-3_dynamic_programming_knapsack.out Q2_dijikstra.out
+project3: Q1-1_brute_force_knapsack.out Q1-2_greedy_algorithm.out Q1-3_dynamic_programming_knapsack.out
 
 Q1-1_brute_force_knapsack.out: Q1-1_brute_force_knapsack.c
 	gcc -g Q1-1_brute_force_knapsack.c -o Q1-1_brute_force_knapsack.out -lm
@@ -10,9 +10,6 @@ Q1-2_greedy_algorithm.out: Q1-2_greedy_algorithm.c
 
 Q1-3_dynamic_programming_knapsack.out: Q1-3_dynamic_programming_knapsack.c
 	gcc -g Q1-3_dynamic_programming_knapsack.c -o Q1-3_dynamic_programming_knapsack.out
-
-Q2_dijikstra.out: Q2_dijikstra.c
-	gcc -g Q2_dijikstra.c -o Q2_dijikstra.out
 
 clean:
 	find . -type f -name "*.o" -delete
